@@ -1,8 +1,8 @@
 import GenerateRandomNumbers from './functions/GenerateRandomNumbers'
-import SJF from './functions/SJF'
+import SRT from './functions/SRT'
 
 const Index = () => {
   const numbers = GenerateRandomNumbers(20)
-  SJF(numbers)
+  SRT(numbers)
 }
 Index()
