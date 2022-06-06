@@ -1,8 +1,8 @@
-import GenerateRandomNumbers from './functions/GenerateRandomNumbers'
-import SRT from './functions/SRT'
+import { GenerateRandomNumbersPriority } from './functions/GenerateRandomNumbers'
+import Priority from './functions/Priority'
 
 const Index = () => {
-  const numbers = GenerateRandomNumbers(20)
-  SRT(numbers)
+  const numbers = GenerateRandomNumbersPriority(20)
+  Priority(numbers)
 }
 Index()
